@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#66CCFF">
+
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.80"
+        android:textSize="20dp"
+        android:text="Google Place Reminder is application that is very useful in daily practise. \n It working is very simple and user friendly. Just set the data in the Add Reminder and whenever the person reaches near that shop it pops a Notification that remindes the user." />
+
+</LinearLayout>

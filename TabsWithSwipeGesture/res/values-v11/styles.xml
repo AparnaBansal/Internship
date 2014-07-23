@@ -1,0 +1,35 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="@android:style/Theme.Holo.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                <item name="android:background">#0066CC</item>
+                <item name="android:titleTextStyle">@style/TitleColor</item>
+                 <item name="android:textSize">@style/TitleTextSize</item>
+                 <item name="android:actionBarStyle">@style/TabBarColor</item>
+                 
+        
+    </style>
+    <style name="TitleColor" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:textColor">#FFFFFF </item>
+</style>
+ <style name="TitleTextSize" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:textSize">20sp</item>
+</style>
+<style name="TabBarColor" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#FFFFFF </item>
+</style>
+</resources>

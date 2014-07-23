@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    
+    <item
+        android:id="@+id/exit"
+        android:icon="@drawable/images"
+        android:showAsAction="always"
+        android:title="">
+    </item>
+
+</menu>
